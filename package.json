@@ -1,0 +1,27 @@
+{
+	"name": "react-context-utility",
+	"version": "1.0.0",
+	"description": "A simple utility for creating and transfering parent context",
+	"main": "Context.js",
+	"scripts": {
+		"test": "echo \"No test specified\" && exit 1",
+		"lint":"eslint ./src/Context.js",
+		"prebuild":"npm run lint",
+		"build":"babel --optional react ./src/Context.js > Context.js"
+	},
+	"keywords": [
+		"react",
+		"context",
+		"mixin"
+	],
+	"author": "ethan ferrari <ethan@ethan.ferrari.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"babel": "^5.8.23",
+		"babel-eslint": "^4.1.3",
+		"eslint": "^1.5.0"
+	},
+	"dependencies": {
+		"react": "^0.13.3"
+	}
+}
