@@ -16,6 +16,7 @@
 	],
 	"author": "ethan ferrari <ethan@ethanferrari.com>",
 	"license": "MIT",
+	"repository":"https://github.com/epferrari/react-context-utility.git",
 	"devDependencies": {
 		"babel": "^5.8.23",
 		"babel-eslint": "^4.1.3",
