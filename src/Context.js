@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function(contextDefinition){
+module.exports = function(contextDefinition){
 
 	var keys = Object.keys(contextDefinition);
 	var c = keys.reduce((accum,key) => {

@@ -1,7 +1,7 @@
 {
 	"name": "@epferrari/react-context-utility",
-	"version": "1.0.0",
-	"description": "A simple utility for creating and transfering parent context",
+	"version": "1.0.1",
+	"description": "A simple utility for creating and transferring parent context",
 	"main": "Context.js",
 	"scripts": {
 		"test": "echo \"No test specified\" && exit 1",
@@ -14,7 +14,7 @@
 		"context",
 		"mixin"
 	],
-	"author": "ethan ferrari <ethan@ethan.ferrari.com>",
+	"author": "ethan ferrari <ethan@ethanferrari.com>",
 	"license": "MIT",
 	"devDependencies": {
 		"babel": "^5.8.23",
