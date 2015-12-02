@@ -31,7 +31,7 @@ module.exports = function (contextDefinition) {
 
 		mixins: [mixin],
 		render: function render() {
-			return _react2['default'].createElement('span', this.props.children);
+			return _react2['default'].createElement('span', null, this.props.children);
 		}
 	});
 

@@ -23,7 +23,7 @@ module.exports = function(contextDefinition){
 	var wrapper = React.createClass({
 		mixins: [mixin],
 		render(){
-			return React.createElement('span',this.props.children);
+			return React.createElement('span',null,this.props.children);
 		}
 	});
 
